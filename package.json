@@ -1,0 +1,55 @@
+{
+  "name": "grok-cli-self",
+  "version": "1.0.0",
+  "description": "grok-cli-self — a fast, zero-dependency command-line interface (CLI) for xAI Grok. Chat with Grok AI in your terminal: streaming replies, interactive REPL, pipes, and scripts. The lightweight Grok CLI for macOS, Linux and Windows.",
+  "keywords": [
+    "grok",
+    "grok-cli",
+    "grok cli",
+    "xai",
+    "xai-api",
+    "grok-ai",
+    "cli",
+    "command-line",
+    "terminal",
+    "ai-chatbot",
+    "ai-agent",
+    "llm",
+    "grok-4",
+    "chatgpt-alternative",
+    "terminal-ai",
+    "nodejs",
+    "macos",
+    "developer-tools",
+    "openai-compatible",
+    "streaming"
+  ],
+  "homepage": "https://github.com/PointAntStorm/grok-self#readme",
+  "bugs": "https://github.com/PointAntStorm/grok-self/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PointAntStorm/grok-self.git"
+  },
+  "license": "MIT",
+  "author": "PointAntStorm",
+  "type": "module",
+  "bin": {
+    "grokself": "bin/grokself.js",
+    "grok-self": "bin/grokself.js",
+    "grok-cli-self": "bin/grokself.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/grokself.js",
+    "dev": "node --watch bin/grokself.js",
+    "test": "node --test test/"
+  }
+}
