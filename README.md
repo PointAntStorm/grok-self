@@ -54,15 +54,16 @@ If you're searching for a **Grok CLI**, a **Grok command-line tool**, a way to *
 
 Open **Terminal** (press `⌘ + Space`, type `Terminal`, hit Enter) and run these **three lines**, one at a time:
 
+1. Install Apple's command line tools (needed by git & compilers)
 ```bash
-# 1️⃣  Install Apple's command line tools (needed by git & compilers)
 xcode-select --install
-
-# 2️⃣  Install Node.js + npm via nvm — see https://nodejs.org/en/download
-#     (pick the "nvm" method shown there — NO Homebrew required)
+```
+2.  Install Node.js + npm via nvm — see https://nodejs.org/en/download
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash && source ~/.zshrc && nvm install --lts
-
-# 3️⃣  Install grok-cli-self straight from GitHub
+```
+3.  Install grok-cli-self straight from GitHub
+```bash
 mkdir -p 'grokself' && cd 'grokself' && npm install github:PointAntStorm/grok-self
 ```
 
